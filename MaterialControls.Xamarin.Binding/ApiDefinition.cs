@@ -542,6 +542,10 @@ namespace MaterialControls
 		[Export("duration")]
 		double Duration { get; set; }
 
+		// @property (nonatomic) double bottomPadding;
+		[Export("bottomPadding")]
+		double BottomPadding { get; set; }
+
 		// @property (nonatomic) BOOL swipeable;
 		[Export("swipeable")]
 		bool Swipeable { get; set; }
